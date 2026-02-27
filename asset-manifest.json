@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Ruleta-ML-02-26/static/css/main.c84dad99.css",
-    "main.js": "/Ruleta-ML-02-26/static/js/main.e67e8957.js",
+    "main.js": "/Ruleta-ML-02-26/static/js/main.1482630b.js",
     "static/media/ruleta.png": "/Ruleta-ML-02-26/static/media/ruleta.380ac1b0c28550770b27.png",
     "static/media/logo.png": "/Ruleta-ML-02-26/static/media/logo.3efbbb643596eff85219.png",
     "static/media/centro.png": "/Ruleta-ML-02-26/static/media/centro.a0b3bb55d32cb607624d.png",
     "index.html": "/Ruleta-ML-02-26/index.html",
     "main.c84dad99.css.map": "/Ruleta-ML-02-26/static/css/main.c84dad99.css.map",
-    "main.e67e8957.js.map": "/Ruleta-ML-02-26/static/js/main.e67e8957.js.map"
+    "main.1482630b.js.map": "/Ruleta-ML-02-26/static/js/main.1482630b.js.map"
   },
   "entrypoints": [
     "static/css/main.c84dad99.css",
-    "static/js/main.e67e8957.js"
+    "static/js/main.1482630b.js"
   ]
 }
