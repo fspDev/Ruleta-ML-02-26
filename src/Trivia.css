@@ -1,0 +1,109 @@
+.BotonRegresar {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 2.5vh;
+  background-color: #ffe600;
+  color: #000000;
+  border: 1px solid #000000;
+  border-radius: 50px;
+  padding: 1.5vh 3vw;
+  cursor: pointer;
+  width: auto;
+  min-width: 40vw;
+  max-width: 400px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: transform 0.2s;
+  margin-top: 3vh;
+}
+
+
+.BotonRegresar:active {
+  transform: scale(0.95); 
+}
+
+.TriviaContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.Tarjeta {
+  width: 85vw;
+  max-width: 800px;
+  border-radius: 12px;
+  background-color: #fff;
+  padding: 4vh 4vw;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 2vh;
+}
+
+.Titulo-principal {
+  font-weight: 900;
+  font-size: 5vh;
+  color: #2D3277;
+  text-align: center;
+  margin: 2vh 0 1vh;
+}
+
+.Titulos {
+  font-weight: 900;
+  font-size: 4vh;
+  color: #2D3277;
+  text-align: center;
+  margin: 1vh 0 2vh;
+}
+
+.Pregunta {
+  font-size: 3.5vh;
+  color: #2D3277;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Opciones {
+  display: flex;
+  flex-direction: column; /* Vertical, mejor para móviles y portrait */
+  justify-content: space-between;
+  margin-top: 3vh;
+  gap: 2vh; 
+}
+
+.Opcion {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 2.5vh;
+  background-color: #ffe600;
+  color: #000000;
+  border: 1px solid #000000;
+  border-radius: 50px;
+  padding: 2vh 3vw;
+  cursor: pointer;
+  flex: 1;
+  text-align: center;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: normal;
+  transition: transform 0.2s;
+  width: 100%;
+}
+
+
+.Mensaje {
+  font-weight: bold;
+  font-size: 5vh;
+  text-align: center;
+  margin-top: 4vh;
+}
+
+.App-logo {
+  width: 80vw;
+  max-width: 600px;
+  padding-bottom: 3vh;
+}

@@ -1,0 +1,58 @@
+{
+  "name": "trivia-ruleta",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Ruleta Trivia App",
+  "author": "FSP Dev",
+  "homepage": ".",
+  "main": "main.js",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "electron-start": "npm run build && electron .",
+    "electron-pack": "npm run build && electron-builder build --win --publish never"
+  },
+  "build": {
+    "extends": null,
+    "appId": "com.ruleta.ml",
+    "directories": {
+      "output": "dist-app"
+    },
+    "files": [
+      "build",
+      "main.js",
+      "package.json"
+    ],
+    "asar": false,
+    "win": {
+      "target": "portable"
+    }
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "electron": "^40.6.1",
+    "electron-builder": "^26.8.1"
+  }
+}
