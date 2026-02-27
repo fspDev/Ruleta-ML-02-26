@@ -140,7 +140,7 @@ function App() {
             {isPlayingVideo && (
               <div className="video-overlay" onClick={() => setIsPlayingVideo(false)}>
                 <div className="video-container" onClick={(e) => e.stopPropagation()}>
-                  <video controls autoPlay className="main-video">
+                  <video controls autoPlay loop className="main-video">
                     <source src="./video.mp4" type="video/mp4" />
                     Tu navegador no soporta el elemento de video.
                   </video>
