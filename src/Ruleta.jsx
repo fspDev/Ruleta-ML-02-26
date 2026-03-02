@@ -82,7 +82,7 @@ function Ruleta({ onResult }) {
     // Restaurar texto después de 2 segundos
     setTimeout(() => {
       setPremio("Suerte!");
-    }, 4000);
+    }, 3500);
   };
 
 
