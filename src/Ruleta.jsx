@@ -21,14 +21,14 @@ function Ruleta({ onResult }) {
   // Configuración de probabilidades y textos por sector (1 al 8)
   // 'prob' determina el peso de cada sector (el sistema calculará la probabilidad real en base a la suma total) y 'texto' (el premio a mostrar)
   const sectores = [
-    { id: 1, prob: 3,  centro: 22,  texto: "Merchandising premium" },
-  { id: 2, prob: 15, centro: 67,  texto: "Gracias por participar" },
-  { id: 3, prob: 23, centro: 112, texto: "Kit de Cuaderno y lapicera" },
-  { id: 4, prob: 3,  centro: 157, texto: "Tirá de nuevo" },
-  { id: 5, prob: 30, centro: 202, texto: "Cupón de comida" },
-  { id: 6, prob: 15, centro: 247, texto: "Gracias por participar" },
-  { id: 7, prob: 9,  centro: 292, texto: "Botellita de agua" },
-  { id: 8, prob: 2,  centro: 337, texto: "Tirá de nuevo" },
+  { id: 1, prob: 3,  centro: 22,  texto: "Merchandising premium" },
+  { id: 2, prob: 8,  centro: 67,  texto: "Gracias por participar" },
+  { id: 3, prob: 25, centro: 112, texto: "Kit de Cuaderno y lapicera" },
+  { id: 4, prob: 7,  centro: 157, texto: "Tirá de nuevo" },
+  { id: 5, prob: 32, centro: 202, texto: "Cupón de comida" },
+  { id: 6, prob: 8,  centro: 247, texto: "Gracias por participar" },
+  { id: 7, prob: 10, centro: 292, texto: "Botellita de agua" },
+  { id: 8, prob: 7,  centro: 337, texto: "Tirá de nuevo" },
   ];
 
   // Función para realizar la rotación de la ruleta basada en probabilidades
